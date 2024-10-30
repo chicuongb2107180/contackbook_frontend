@@ -118,7 +118,7 @@ export default {
       }
     },
     async gotoAddContact() {
-      this.$router.push({ name: "AddContact" });
+      this.$router.push({ name: "contact.add" });
     },
   },
   mounted() {
